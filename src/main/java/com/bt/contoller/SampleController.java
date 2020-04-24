@@ -18,7 +18,7 @@ public class SampleController {
     @ResponseBody
     String uploadImage(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession)
             throws JSONException {
-System.out.println(":::MEthod calling:::");
+System.out.println(":::Roop calling:::");
         JSONObject js = new JSONObject();
         js.put("Name", "Bhaskar Reddy L");
         js.put("Technology", "DevOps  ");
